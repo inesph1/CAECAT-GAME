@@ -1,0 +1,123 @@
+*{
+    box-sizing:border-box;
+    
+}
+
+#logo{
+width:500px;
+margin-bottom: 5px;
+flex-direction: column;
+}
+
+#div0{
+    position:relative;
+    align-items: center;
+    margin-left:30%;
+    margin-right: 20%; 
+    /*margin-top: 14%;*/
+    
+}
+
+#btP{
+    flex-direction: column;
+    /*float: inline-start;*/
+    padding: 2%;
+    border-radius: 8px;
+}
+
+#div1{
+    flex-direction: column;
+
+}
+
+#lU{
+    /*float: inline-start;*/
+    flex-direction: column;
+    /*margin-top: 8%;*/
+    /*padding: 4%;*/
+    border-radius: 8px;
+    align-items: center;
+    width:60%
+   
+}
+
+
+#bt0, #texto{
+    margin-left: 2%;
+    border-radius: 4px;
+}
+
+#texto, #e1{
+
+    font-size: large;
+}
+
+#bt0{
+    padding: 6px;
+}
+
+#bt1{
+    /*flex-direction: inline-end;*/
+    padding: 16px;
+    border-radius: 4px;
+    margin-left:38%;
+    width: 20%;
+    font-size: large;
+}
+
+li{
+    /*background-color: aqua;*/
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 3%;
+    font-size: large;
+}
+
+/* Estilos para elementos li impares */
+li:nth-child(odd) {
+    background-color: lightblue;
+  }
+  
+  /* Estilos para elementos li pares */
+  li:nth-child(even) {
+    background-color: #f0ab0f;
+  }
+
+  #bt0:enabled:hover, #btP:enabled:hover{
+    cursor:pointer;
+    background-color: lightblue;;
+
+}
+
+
+
+#bt1:enabled{
+    cursor:pointer;
+    background-color: #f0ab0f;
+}
+
+#bt2{
+    cursor:pointer;
+    padding: 8px;
+    border-radius: 4px;
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+}
+
+#bt2:enabled:hover{
+    background-color: #55b7a3;
+}
+
+#div1{
+    padding-right:8px;
+}
+
+.quitarFondo{
+    background-color:white  !important; 
+}
+
+#bt1:enabled:hover{
+    cursor:pointer;
+    background-color: #f4ba34 !important;
+}
